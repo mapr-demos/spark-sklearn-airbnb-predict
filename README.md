@@ -1,7 +1,7 @@
 # spark-sklearn-airbnb-predict
 Code example to predict prices of Airbnb vacation rentals, using scikit-learn on Spark.
 
-The [Jupyter notebook in this repo](https://github.com/mapr-demos/spark-sklearn-airbnb-predict/blob/master/python_scikit_airbnb.ipynb) contains examples to run regression estimators on the listings dataset from San Francisco.  The target variable is the price of the listing.  To speed up the hyperparameter search, the notebook shows examples that use the spark-sklearn package to distribute GridSearchCV across nodes in a Spark cluster.  This provides a much faster way to search and can lead to better results.
+The [Jupyter notebook in this repo](https://github.com/mapr-demos/spark-sklearn-airbnb-predict/blob/master/python_scikit_airbnb.ipynb) contains examples to run regression estimators on the [Inside Airbnb](http://insideairbnb.com/get-the-data.html) listings dataset from San Francisco.  The target variable is the price of the listing.  To speed up the hyperparameter search, the notebook shows examples that use the spark-sklearn package to distribute GridSearchCV across nodes in a Spark cluster.  This provides a much faster way to search and can lead to better results.
 
 To run the scikit-learn examples (without Spark) the following packages are required:
 * Python 2
