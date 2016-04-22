@@ -26,5 +26,7 @@ Run the script with:
 
 (setting num-executors and executor-cores to suit your environment)
 
+The file ```classify.py``` in this repo contains an example of classification on the same dataset, using ```reviews.csv``` and text analysis.
+
 and of course... have fun!
 
