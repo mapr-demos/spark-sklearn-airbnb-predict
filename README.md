@@ -18,7 +18,7 @@ To run the scikit-learn examples with Spark, the following packages are required
 
 You can run this on a MapR cluster by following one of these methods:
 * Use the [MapR Sandbox](https://www.mapr.com/products/mapr-sandbox-hadoop), which comes with Spark pre-installed.  You must install Pandas, NumPy and scikit-learn.
-* If you have multiple machines available, use the [MapR Community Edition](https://www.mapr.com/products/hadoop-download)and install the mapr-spark package on each machine, following the [Spark on YARN documentation](http://maprdocs.mapr.com/51/#Spark/SparkonYARN.html)
+* If you have multiple machines available, use the [MapR Community Edition](https://www.mapr.com/products/hadoop-download) and install the mapr-spark package on each machine, following the [Spark on YARN documentation](http://maprdocs.mapr.com/51/#Spark/SparkonYARN.html)
 
 Run the script with:
 
